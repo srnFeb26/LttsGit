@@ -1,0 +1,36 @@
+Create a file through cmd:
+--------------------------
+touch <file_name>
+Example :
+1.touch log.txt
+2.touch .gitignore
+
+Open a file through cmd:
+------------------------
+xdg-open <file_name>
+Example:
+1.xdg-open log.txt
+2.xdg-open .gitignore
+
+Create git ignore:
+------------------
+touch -gitignore
+
+Open .gitignore file through cmd:
+---------------------------------
+xdg-open .gitignore
+
+Add details to .gitignore file:
+-------------------------------
+>Open .gitignore file 
+>add details 
+Note :
+If we don't want to add any file inside file add the names
+
+Example:
+1.log.txt (it just stops adding log.txt files)
+2.*.xml (it stop adding all .xml files)
+3.for stop addding entire folder : /folder_name
+
+
+
